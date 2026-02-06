@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  line-height: 1.6;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.breaks {
+    background-color: #41d215;
+}
+
+.industry {
+    background-color: #f8bfee;
+}
+
+.heading {
+    text-align: center;
+    margin: 2rem;
+    color: red;
+}
+
+.timetable {
+    margin: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+th {
+    width: auto;
+}
+
+.oe-td {
+    background-color: #fcf00b;
+}
+
+.robotButtonArea {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.robotButtonGreen {
+    margin: 2px;
+    padding: 0.5rem;
+    background-color: rgb(236, 250, 111);
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+}
