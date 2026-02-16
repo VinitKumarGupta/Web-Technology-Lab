@@ -135,10 +135,11 @@ main {
   align-items: center;
   padding: 0 14px;
 }
-/* ================= FOOTER ================= */
+
+/* FOOTER */
 
 footer {
-  background-color: #18181b; /* Matches the GoRails reference dark grey */
+  background-color: #262626;
   color: #a3a3a3;
   padding: 4rem 2rem 2rem 2rem;
   font-size: 0.95rem;
@@ -274,4 +275,89 @@ footer {
 
 .built-with a:hover {
   text-decoration: underline;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  padding: 8rem 1rem 6rem 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-family: "Poppins", sans-serif; /* Using the font linked in your head */
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.text-red {
+  color: #ef4444;
+}
+
+/* Scribble Underline Effect */
+.scribble {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #d4d4d4;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.hero-buttons .btn {
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.hero-buttons .btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn-outline-light {
+  border-color: #404040;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #404040;
+  border-color: #404040;
+}
+
+/* INTRO SECTION */
+
+.intro-section {
+  padding: 4rem 1rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-desc {
+  color: #d4d4d4;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
