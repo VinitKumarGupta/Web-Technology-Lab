@@ -7,19 +7,16 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #262626;
-
-  /* ADD THESE LINES */
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Forces body to be at least as tall as the screen */
 }
 
-/* ADD THIS NEW RULE */
 main {
   flex: 1; /* This tells the main section to grow and fill all available space */
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR */
 
 .mainNav {
   background-color: #262626;
@@ -253,7 +250,7 @@ footer {
 
 /* --- Bottom Section Layout --- */
 .footer-bottom {
-  border-top: 1px solid #2d2d2d; /* Slightly lighter border for visibility */
+  border-top: 1px solid #2d2d2d;
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -286,7 +283,6 @@ footer {
 }
 
 .hero-title {
-  font-family: "Poppins", sans-serif; /* Using the font linked in your head */
   font-weight: 700;
   font-size: 3.5rem;
   line-height: 1.2;
