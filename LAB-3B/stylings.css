@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(45deg, #41bb5f, #dce8dd);
+}
+
+.feedbackForm {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.headings {
+    text-align: center;
+}
+
+.headings h2 {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #2F8D46; /* green color */
+    font-size: 2rem;
+}
+
+.headings p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+}
+
+form {
+    background-color: #fdfbfb;
+    padding: 2rem;
+    color: #2F8D46;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+form h6 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.btn {
+    width: 100%;
+    background-color: #2F8D46;
+    border: none;
+}
