@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+  justify-content: center;
+  width: 60%;
+}
+
+.mainBox {
+  border: 1px solid #3232324a;
+  border-radius: 5px;
+  height: auto;
+  padding: 2rem;
+}
+
+.mainBox p {
+  font-size: 1.4rem;
+}
+
+.mainBox div {
+  font-size: 1.4rem;
+}
+
+.float1 {
+  float: left;
+  height: 200px;
+  width: 200px;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: #cfe8dc;
+  margin: 10px;
+}
+
+.float2 {
+  float: right;
+  height: 200px;
+  width: 200px;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: #cfe8dc;
+  margin: 10px;
+}
