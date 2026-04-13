@@ -1,4 +1,6 @@
 import * as React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 import {
     Drawer,
@@ -38,7 +40,10 @@ export default function Sidebar() {
             }}
         >
             <Toolbar>
-                <Typography variant="h6">Explaina UI</Typography>
+                <Typography variant="h6">
+                    <FontAwesomeIcon icon={faGraduationCap} />
+                    &nbsp; PDEU
+                </Typography>
             </Toolbar>
 
             <Box>

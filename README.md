@@ -14,10 +14,12 @@
 
 ### - LAB 6: Hello world in react
 
+> Written inside LAB-7/counter-app/src/components as this is simple
+
 ### - LAB 7: Counter app using state in React
 
 ### - LAB 8: Storing on Local Storage via Signup Form
 
-### - LAB 9: Sidebar using Material UI
+### - LAB 9: Sidebar using Material UI (Inside React-Labs as component)
 
-### - LAB 10: Cards using Material UI
+### - LAB 10: Cards using Material UI (Inside React-Labs as component)
